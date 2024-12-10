@@ -38,7 +38,7 @@ class ChatBot:
             "style": "vivid"
         }
 
-        # 初始化OpenAI客户端
+        # 初始化OpenAI���户端
         self.client = OpenAI(
             api_key=os.getenv('OPENAI_API_KEY'),
             base_url=os.getenv('OPENAI_API_BASE')
@@ -151,7 +151,8 @@ def main():
                     chatbot.tts.speak(response)
                     
             except KeyboardInterrupt:
-                raise
+                print("\n程序已被中断。")
+                break  # 退出循环
             except Exception as e:
                 print(f"\n发生错误: {str(e)}")
                 continue

@@ -20,5 +20,23 @@
     "size": "1024x1024",
     "quality": "standard",
     "style": "vivid"
-  }
+  },
+  "context": [
+    {
+      "role": "user",
+      "content": "你好啊。"
+    },
+    {
+      "role": "assistant",
+      "content": "你好！有什么我可以帮助你的吗？"
+    },
+    {
+      "role": "user",
+      "content": "退出。"
+    },
+    {
+      "role": "assistant",
+      "content": "好的，如果你有其他问题或需要帮助，随时欢迎再来！祝你有个愉快的一天！"
+    }
+  ]
 }
